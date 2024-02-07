@@ -11,6 +11,7 @@
 		E43DE0CD2B744A5900CE4739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43DE0CC2B744A5900CE4739 /* ContentView.swift */; };
 		E43DE0CF2B744A5A00CE4739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43DE0CE2B744A5A00CE4739 /* Assets.xcassets */; };
 		E43DE0D22B744A5A00CE4739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43DE0D12B744A5A00CE4739 /* Preview Assets.xcassets */; };
+		E43DE0D92B744A6F00CE4739 /* Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43DE0D82B744A6F00CE4739 /* Intents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E43DE0CC2B744A5900CE4739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E43DE0CE2B744A5A00CE4739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43DE0D12B744A5A00CE4739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E43DE0D82B744A6F00CE4739 /* Intents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E43DE0C92B744A5900CE4739 /* DebugIntentPackage */ = {
 			isa = PBXGroup;
 			children = (
+				E43DE0D82B744A6F00CE4739 /* Intents.swift */,
 				E43DE0CA2B744A5900CE4739 /* DebugIntentPackageApp.swift */,
 				E43DE0CC2B744A5900CE4739 /* ContentView.swift */,
 				E43DE0CE2B744A5A00CE4739 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43DE0D92B744A6F00CE4739 /* Intents.swift in Sources */,
 				E43DE0CD2B744A5900CE4739 /* ContentView.swift in Sources */,
 				E43DE0CB2B744A5900CE4739 /* DebugIntentPackageApp.swift in Sources */,
 			);
