@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		E43DE0CF2B744A5A00CE4739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43DE0CE2B744A5A00CE4739 /* Assets.xcassets */; };
 		E43DE0D22B744A5A00CE4739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43DE0D12B744A5A00CE4739 /* Preview Assets.xcassets */; };
 		E43DE0D92B744A6F00CE4739 /* Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43DE0D82B744A6F00CE4739 /* Intents.swift */; };
+		E473577D2B744CEC00F636C6 /* IntentPackage in Frameworks */ = {isa = PBXBuildFile; productRef = E473577C2B744CEC00F636C6 /* IntentPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E473577D2B744CEC00F636C6 /* IntentPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,9 @@
 			dependencies = (
 			);
 			name = DebugIntentPackage;
+			packageProductDependencies = (
+				E473577C2B744CEC00F636C6 /* IntentPackage */,
+			);
 			productName = DebugIntentPackage;
 			productReference = E43DE0C72B744A5900CE4739 /* DebugIntentPackage.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +119,9 @@
 				Base,
 			);
 			mainGroup = E43DE0BE2B744A5900CE4739;
+			packageReferences = (
+				E473577B2B744CEC00F636C6 /* XCLocalSwiftPackageReference "IntentPackage" */,
+			);
 			productRefGroup = E43DE0C82B744A5900CE4739 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -348,6 +356,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E473577B2B744CEC00F636C6 /* XCLocalSwiftPackageReference "IntentPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = IntentPackage;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E473577C2B744CEC00F636C6 /* IntentPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IntentPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E43DE0BF2B744A5900CE4739 /* Project object */;
 }
