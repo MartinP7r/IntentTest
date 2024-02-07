@@ -1,5 +1,6 @@
 import AppIntents
 import Foundation
+import IntentPackage
 
 struct LibraryAppShortcuts: AppShortcutsProvider {
     static var appShortcuts: [AppShortcut] {
@@ -12,16 +13,10 @@ struct LibraryAppShortcuts: AppShortcutsProvider {
     }
 }
 
-enum Shelf: String {
-    case currentlyReading
-    case wantToRead
-    case read
-}
-
 extension Shelf: AppEnum {
-    static var typeDisplayRepresentation: TypeDisplayRepresentation = "Shelf"
+    public static var typeDisplayRepresentation: TypeDisplayRepresentation = "Shelf"
 
-    static var caseDisplayRepresentations: [Shelf: DisplayRepresentation] = [
+    public static var caseDisplayRepresentations: [Shelf: DisplayRepresentation] = [
         .currentlyReading: "Currently Reading",
         .wantToRead: "Want to Read",
         .read: "Read",
